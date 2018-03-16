@@ -1,4 +1,4 @@
-from selenium import webdriver
+﻿from selenium import webdriver
 import random
 import time
 
@@ -45,7 +45,7 @@ def start():
         driver.find_element_by_id('ctlNext').click()
         print('第'+ str(n+1)+'次提交!')
         driver.close()
-        # 防止问卷星要验证码这里提交一次后休眠一分钟
+        # 防止问卷星要验证码这里提交一次后休眠一段时间
         time.sleep(20)
 
 

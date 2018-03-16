@@ -2,7 +2,7 @@ from selenium import webdriver
 import random
 import time
 
-# 0:A   1:B    2:C    3:D
+
 
 # 自定义答案
 

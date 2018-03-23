@@ -8,7 +8,7 @@ def start():
     for n in range(nums):
         # 自定义答案
         answer = {
-            '1': random.randint(0, 1),
+            '1': 0,
             '2': random.randint(2, 3),
             '3': random.randint(4, 7),
             '4': 9,
@@ -16,18 +16,18 @@ def start():
             '6': 14,
             '7': 19,
             '8': 23,
-            '9': random.randint(26, 27),
+            '9': 27,
             '10': 31,
             '11': random.randint(34, 35),
             '12': random.randint(37, 38),
             '13': 43,
-            '14': random.randint(45, 46),
+            '14': 47,
             '15': 50,
-            '16': random.randint(53, 54),
+            '16': 53,
             '17': random.randint(58, 59),
             '18': random.randint(61, 63),
-            '19': random.randint(65, 67),
-            '20': random.randint(69, 70),
+            '19': 66,
+            '20': 70,
         }
         driver = webdriver.Firefox()
         url = "https://www.wjx.cn/m/20834858.aspx?from=singlemessage#"

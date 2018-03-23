@@ -1,12 +1,8 @@
-# 大学生网络游戏调查问卷模板自动刷问卷脚本工具
 from selenium import webdriver
-import random
 import time
 
 
-# 分析页面答案1-4单选，5多选，6-11单选，12多选，下面自定义填写答案
-answer_5 = []
-answer_7 = []
+# 分析页面答案下面自定义填写答案
 
 
 def start():

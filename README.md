@@ -3,6 +3,8 @@
 
 ### 小工具清单
 
+#### python
+
 - docker-speed.py  docker 镜像加速python脚本 start
 
 ```
@@ -22,3 +24,7 @@ python sojump.py
 ```
 python sojump_college_online_game.py
 ```
+
+#### golang
+
+- fileService 简单的文件服务器 go build run.go 在build下产生run文件，linux直接sh执行即可。启动后会建立一个file目录，要共享的文件直接放在里面即可
